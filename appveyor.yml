@@ -23,4 +23,4 @@ build_script:
 
 deploy_script:
   - ps: docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
-  - ps: docker push iisdev
+  - ps: docker push dazinator/dev:latest
