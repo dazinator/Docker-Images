@@ -8,7 +8,6 @@ environment:
 
 install:
   - choco install gitversion.portable -pre -y
-  - cinst gitlink -version 2.4.1 -y
   - docker version
 
 before_build:
