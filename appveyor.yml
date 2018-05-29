@@ -23,5 +23,5 @@ build_script:
 #   - docker run me/myfavoriteapp
 
 deploy_script:
-  - docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
+  - ps: docker login -u="$env:DOCKER_USER" -p="$env:DOCKER_PASS"
   #- docker push me/myfavoriteapp
